@@ -1,4 +1,4 @@
-# ruimarinho/bitcoin-core
+# jkubo/bitcoin-core
 
 A bitcoin-core docker image with support for the following platforms:
 
@@ -6,39 +6,52 @@ A bitcoin-core docker image with support for the following platforms:
 * `arm32v7` (armv7)
 * `arm64` (aarch64, armv8)
 
-[![ruimarinho/bitcoin-core][docker-pulls-image]][docker-hub-url] [![ruimarinho/bitcoin-core][docker-stars-image]][docker-hub-url] [![ruimarinho/bitcoin-core][docker-size-image]][docker-hub-url]
+[![jkubo/bitcoin-core][docker-pulls-image]][docker-hub-url] [![jkubo/bitcoin-core][docker-stars-image]][docker-hub-url] [![jkubo/bitcoin-core][docker-size-image]][docker-hub-url]
+
+Older versions (before 25)
+
+[![jkubo/bitcoin-core][docker-pulls-image]][docker-hub-url] [![jkubo/bitcoin-core][docker-stars-image]][docker-hub-url] [![jkubo/bitcoin-core][docker-size-image]][docker-hub-url]
 
 ## Tags
 
-- `24.0.1`, `24`, `latest` ([24/Dockerfile](https://github.com/ruimarinho/docker-bitcoin-core/blob/master/24/Dockerfile)) [**multi-arch**]
-- `24.0.1-alpine`, `24-alpine` ([24/alpine/Dockerfile](https://github.com/ruimarinho/docker-bitcoin-core/blob/master/24/alpine/Dockerfile))
+- `27.1`, `27`, `latest` ([27/Dockerfile](https://github.com/jkubo/docker-bitcoin-core/blob/master/27/Dockerfile)) [**multi-arch**]
+- `27.1-alpine`, `27-alpine` ([27/alpine/Dockerfile](https://github.com/jkubo/docker-bitcoin-core/blob/master/27/alpine/Dockerfile))
 
-- `23.0`, `23` ([23/Dockerfile](https://github.com/ruimarinho/docker-bitcoin-core/blob/master/23/Dockerfile)) [**multi-arch**]
-- `23.0-alpine`, `23-alpine` ([23/alpine/Dockerfile](https://github.com/ruimarinho/docker-bitcoin-core/blob/master/23/alpine/Dockerfile))
+- `26.2`, `26`, `latest` ([26/Dockerfile](https://github.com/jkubo/docker-bitcoin-core/blob/master/26/Dockerfile)) [**multi-arch**]
+- `26.2-alpine`, `26-alpine` ([26/alpine/Dockerfile](https://github.com/jkubo/docker-bitcoin-core/blob/master/26/alpine/Dockerfile))
 
-- `22.0`, `22`, ([22/Dockerfile](https://github.com/ruimarinho/docker-bitcoin-core/blob/master/22/Dockerfile)) [**multi-arch**]
-- `22.0-alpine`, `22-alpine` ([22/alpine/Dockerfile](https://github.com/ruimarinho/docker-bitcoin-core/blob/master/22/alpine/Dockerfile))
+- `25.2`, `25`, `latest` ([25/Dockerfile](https://github.com/jkubo/docker-bitcoin-core/blob/master/25/Dockerfile)) [**multi-arch**]
+- `25.2-alpine`, `25-alpine` ([25/alpine/Dockerfile](https://github.com/jkubo/docker-bitcoin-core/blob/master/25/alpine/Dockerfile))
 
-- `0.21.1`, `0.21` ([0.21/Dockerfile](https://github.com/ruimarinho/docker-bitcoin-core/blob/master/0.21/Dockerfile)) [**multi-arch**]
-- `0.21.1-alpine`, `0.21-alpine` ([0.21/alpine/Dockerfile](https://github.com/ruimarinho/docker-bitcoin-core/blob/master/0.21/alpine/Dockerfile))
+- `24.0.1`, `24`, `latest` ([24/Dockerfile](https://github.com/jkubo/docker-bitcoin-core/blob/master/24/Dockerfile)) [**multi-arch**]
+- `24.0.1-alpine`, `24-alpine` ([24/alpine/Dockerfile](https://github.com/jkubo/docker-bitcoin-core/blob/master/24/alpine/Dockerfile))
 
-- `0.20.1`, `0.20` ([0.20/Dockerfile](https://github.com/ruimarinho/docker-bitcoin-core/blob/master/0.20/Dockerfile)) [**multi-arch**]
-- `0.20.1-alpine`, `0.20-alpine` ([0.20/alpine/Dockerfile](https://github.com/ruimarinho/docker-bitcoin-core/blob/master/0.20/alpine/Dockerfile))
+- `23.0`, `23` ([23/Dockerfile](https://github.com/jkubo/docker-bitcoin-core/blob/master/23/Dockerfile)) [**multi-arch**]
+- `23.0-alpine`, `23-alpine` ([23/alpine/Dockerfile](https://github.com/jkubo/docker-bitcoin-core/blob/master/23/alpine/Dockerfile))
 
-- `0.19.1`, `0.19` ([0.19/Dockerfile](https://github.com/ruimarinho/docker-bitcoin-core/blob/master/0.19/Dockerfile)) [**multi-arch**]
-- `0.19.1-alpine`, `0.19-alpine` ([0.19/alpine/Dockerfile](https://github.com/ruimarinho/docker-bitcoin-core/blob/master/0.19/alpine/Dockerfile))
+- `22.0`, `22`, ([22/Dockerfile](https://github.com/jkubo/docker-bitcoin-core/blob/master/22/Dockerfile)) [**multi-arch**]
+- `22.0-alpine`, `22-alpine` ([22/alpine/Dockerfile](https://github.com/jkubo/docker-bitcoin-core/blob/master/22/alpine/Dockerfile))
 
-- `0.18.1`, `0.18`, ([0.18/Dockerfile](https://github.com/ruimarinho/docker-bitcoin-core/blob/master/0.18/Dockerfile))
-- `0.18.1-alpine`, `0.18-alpine` ([0.18/alpine/Dockerfile](https://github.com/ruimarinho/docker-bitcoin-core/blob/master/0.18/alpine/Dockerfile))
+- `0.21.1`, `0.21` ([0.21/Dockerfile](https://github.com/jkubo/docker-bitcoin-core/blob/master/0.21/Dockerfile)) [**multi-arch**]
+- `0.21.1-alpine`, `0.21-alpine` ([0.21/alpine/Dockerfile](https://github.com/jkubo/docker-bitcoin-core/blob/master/0.21/alpine/Dockerfile))
 
-- `0.17.1`, `0.17` ([0.17/Dockerfile](https://github.com/ruimarinho/docker-bitcoin-core/blob/master/0.17/Dockerfile))
-- `0.17.1-alpine`, `0.17-alpine` ([0.17/alpine/Dockerfile](https://github.com/ruimarinho/docker-bitcoin-core/blob/master/0.17/alpine/Dockerfile))
+- `0.20.1`, `0.20` ([0.20/Dockerfile](https://github.com/jkubo/docker-bitcoin-core/blob/master/0.20/Dockerfile)) [**multi-arch**]
+- `0.20.1-alpine`, `0.20-alpine` ([0.20/alpine/Dockerfile](https://github.com/jkubo/docker-bitcoin-core/blob/master/0.20/alpine/Dockerfile))
 
-- `0.16.3`, `0.16` ([0.16/Dockerfile](https://github.com/ruimarinho/docker-bitcoin-core/blob/master/0.16/Dockerfile))
-- `0.16.3-alpine`, `0.16-alpine` ([0.16/alpine/Dockerfile](https://github.com/ruimarinho/docker-bitcoin-core/blob/master/0.16/alpine/Dockerfile))
+- `0.19.1`, `0.19` ([0.19/Dockerfile](https://github.com/jkubo/docker-bitcoin-core/blob/master/0.19/Dockerfile)) [**multi-arch**]
+- `0.19.1-alpine`, `0.19-alpine` ([0.19/alpine/Dockerfile](https://github.com/jkubo/docker-bitcoin-core/blob/master/0.19/alpine/Dockerfile))
 
-- `0.15.1`, `0.15` ([0.15/Dockerfile](https://github.com/ruimarinho/docker-bitcoin-core/blob/master/0.15/Dockerfile))
-- `0.15.1-alpine`, `0.15-alpine` ([0.15/alpine/Dockerfile](https://github.com/ruimarinho/docker-bitcoin-core/blob/master/0.15/alpine/Dockerfile))
+- `0.18.1`, `0.18`, ([0.18/Dockerfile](https://github.com/jkubo/docker-bitcoin-core/blob/master/0.18/Dockerfile))
+- `0.18.1-alpine`, `0.18-alpine` ([0.18/alpine/Dockerfile](https://github.com/jkubo/docker-bitcoin-core/blob/master/0.18/alpine/Dockerfile))
+
+- `0.17.1`, `0.17` ([0.17/Dockerfile](https://github.com/jkubo/docker-bitcoin-core/blob/master/0.17/Dockerfile))
+- `0.17.1-alpine`, `0.17-alpine` ([0.17/alpine/Dockerfile](https://github.com/jkubo/docker-bitcoin-core/blob/master/0.17/alpine/Dockerfile))
+
+- `0.16.3`, `0.16` ([0.16/Dockerfile](https://github.com/jkubo/docker-bitcoin-core/blob/master/0.16/Dockerfile))
+- `0.16.3-alpine`, `0.16-alpine` ([0.16/alpine/Dockerfile](https://github.com/jkubo/docker-bitcoin-core/blob/master/0.16/alpine/Dockerfile))
+
+- `0.15.1`, `0.15` ([0.15/Dockerfile](https://github.com/jkubo/docker-bitcoin-core/blob/master/0.15/Dockerfile))
+- `0.15.1-alpine`, `0.15-alpine` ([0.15/alpine/Dockerfile](https://github.com/jkubo/docker-bitcoin-core/blob/master/0.15/alpine/Dockerfile))
 
 **Multi-architecture builds**
 
@@ -46,10 +59,10 @@ The newest images (Debian-based, *0.19+*) provide built-in support for multiple 
 
 **Picking the right tag**
 
-- `ruimarinho/bitcoin-core:latest`: points to the latest stable release available of Bitcoin Core. Caution when using in production as blindly upgrading Bitcoin Core is a risky procedure.
-- `ruimarinho/bitcoin-core:alpine`: same as above but using the Alpine Linux distribution (a resource efficient Linux distribution with security in mind, but not officially supported by the Bitcoin Core team — use at your own risk).
-- `ruimarinho/bitcoin-core:<version>`: based on a slim Debian image, this tag format points to a specific version branch (e.g. `0.20`) or release of Bitcoin Core (e.g. `0.20.1`). Uses the pre-compiled binaries which are distributed by the Bitcoin Core team.
-- `ruimarinho/bitcoin-core:<version>-alpine`: same as above but using the Alpine Linux distribution.
+- `jkubo/bitcoin-core:latest`: points to the latest stable release available of Bitcoin Core. Caution when using in production as blindly upgrading Bitcoin Core is a risky procedure.
+- `jkubo/bitcoin-core:alpine`: same as above but using the Alpine Linux distribution (a resource efficient Linux distribution with security in mind, but not officially supported by the Bitcoin Core team — use at your own risk).
+- `jkubo/bitcoin-core:<version>`: based on a slim Debian image, this tag format points to a specific version branch (e.g. `0.20`) or release of Bitcoin Core (e.g. `0.20.1`). Uses the pre-compiled binaries which are distributed by the Bitcoin Core team.
+- `jkubo/bitcoin-core:<version>-alpine`: same as above but using the Alpine Linux distribution.
 
 ## What is Bitcoin Core?
 
@@ -62,7 +75,7 @@ Bitcoin Core is a reference client that implements the Bitcoin protocol for remo
 This image contains the main binaries from the Bitcoin Core project - `bitcoind`, `bitcoin-cli` and `bitcoin-tx`. It behaves like a binary, so you can pass any arguments to the image and they will be forwarded to the `bitcoind` binary:
 
 ```sh
-❯ docker run --rm -it ruimarinho/bitcoin-core \
+❯ docker run --rm -it jkubo/bitcoin-core \
   -printtoconsole \
   -regtest=1 \
   -rpcallowip=172.17.0.0/16 \
@@ -74,7 +87,7 @@ _Note: [learn more](#using-rpcauth-for-remote-authentication) about how `-rpcaut
 By default, `bitcoind` will run as user `bitcoin` in the group `bitcoin` for security reasons and with its default data dir set to `~/.bitcoin`. If you'd like to customize where `bitcoin-core` stores its data, you must use the `BITCOIN_DATA` environment variable. The directory will be automatically created with the correct permissions for the `bitcoin` user and `bitcoind` automatically configured to use it.
 
 ```sh
-❯ docker run --env BITCOIN_DATA=/var/lib/bitcoin-core --rm -it ruimarinho/bitcoin-core \
+❯ docker run --env BITCOIN_DATA=/var/lib/bitcoin-core --rm -it jkubo/bitcoin-core \
   -printtoconsole \
   -regtest=1
 ```
@@ -82,7 +95,7 @@ By default, `bitcoind` will run as user `bitcoin` in the group `bitcoin` for sec
 You can also mount a directory in a volume under `/home/bitcoin/.bitcoin` in case you want to access it on the host:
 
 ```sh
-❯ docker run -v ${PWD}/data:/home/bitcoin/.bitcoin -it --rm ruimarinho/bitcoin-core \
+❯ docker run -v ${PWD}/data:/home/bitcoin/.bitcoin -it --rm jkubo/bitcoin-core \
   -printtoconsole \
   -regtest=1
 ```
@@ -91,7 +104,7 @@ You can optionally create a service using `docker-compose`:
 
 ```yml
 bitcoin-core:
-  image: ruimarinho/bitcoin-core
+  image: jkubo/bitcoin-core
   command:
     -printtoconsole
     -regtest=1
@@ -104,7 +117,7 @@ By default, images are created with a `bitcoin` user/group using a static UID/GI
 If you'd like to use the pre-built images, uou can also customize the UID/GID on runtime via environment variables `$UID` and `$GID`:
 
 ```sh
-❯ docker run -e UID=10000 -e GID=10000 -it --rm ruimarinho/bitcoin-core \
+❯ docker run -e UID=10000 -e GID=10000 -it --rm jkubo/bitcoin-core \
   -printtoconsole \
   -regtest=1
 ```
@@ -124,7 +137,7 @@ The second option is making a remote procedure call using a username and passwor
 Start by launch the Bitcoin Core daemon:
 
 ```sh
-❯ docker run --rm --name bitcoin-server -it ruimarinho/bitcoin-core \
+❯ docker run --rm --name bitcoin-server -it jkubo/bitcoin-core \
   -printtoconsole \
   -regtest=1
 ```
@@ -173,7 +186,7 @@ Now that you have your credentials, you need to start the Bitcoin Core daemon wi
 Let's opt for the Docker way:
 
 ```sh
-❯ docker run --rm --name bitcoin-server -it ruimarinho/bitcoin-core \
+❯ docker run --rm --name bitcoin-server -it jkubo/bitcoin-core \
   -printtoconsole \
   -regtest=1 \
   -rpcallowip=172.17.0.0/16 \
@@ -185,12 +198,12 @@ Two important notes:
 1. Some shells require escaping the rpcauth line (e.g. zsh), as shown above.
 2. It is now perfectly fine to pass the rpcauth line as a command line argument. Unlike `-rpcpassword`, the content is hashed so even if the arguments would be exposed, they would not allow the attacker to get the actual password.
 
-You can now connect via `bitcoin-cli` or any other [compatible client](https://github.com/ruimarinho/bitcoin-core). You will still have to define a username and password when connecting to the Bitcoin Core RPC server.
+You can now connect via `bitcoin-cli` or any other [compatible client](https://github.com/jkubo/bitcoin-core). You will still have to define a username and password when connecting to the Bitcoin Core RPC server.
 
 To avoid any confusion about whether or not a remote call is being made, let's spin up another container to execute `bitcoin-cli` and connect it via the Docker network using the password generated above:
 
 ```sh
-❯ docker run -it --link bitcoin-server --rm ruimarinho/bitcoin-core \
+❯ docker run -it --link bitcoin-server --rm jkubo/bitcoin-core \
   bitcoin-cli \
   -rpcconnect=bitcoin-server \
   -regtest \
@@ -221,7 +234,7 @@ Example for running a node in `regtest` mode mapping JSON-RPC/REST (18443) and P
 docker run --rm -it \
   -p 18443:18443 \
   -p 18444:18444 \
-  ruimarinho/bitcoin-core \
+  jkubo/bitcoin-core \
   -printtoconsole \
   -regtest=1 \
   -rpcallowip=172.17.0.0/16 \
@@ -261,14 +274,14 @@ _Please note that due to [CVE-2018-17144](https://nvd.nist.gov/vuln/detail/CVE-2
 
 For historical reasons, the following tags are still available and automatically updated when the underlying base image (_Alpine Linux_ or _Debian stable_) is updated as well:
 
-- `0.13.2`, `0.13` ([0.13/Dockerfile](https://github.com/ruimarinho/docker-bitcoin-core/blob/master/0.13/Dockerfile))
-- `0.13.2-alpine`, `0.13-alpine` ([0.13/alpine/Dockerfile](https://github.com/ruimarinho/docker-bitcoin-core/blob/master/0.13/alpine/Dockerfile))
+- `0.13.2`, `0.13` ([0.13/Dockerfile](https://github.com/jkubo/docker-bitcoin-core/blob/master/0.13/Dockerfile))
+- `0.13.2-alpine`, `0.13-alpine` ([0.13/alpine/Dockerfile](https://github.com/jkubo/docker-bitcoin-core/blob/master/0.13/alpine/Dockerfile))
 
-- `0.12.1`, `0.12` ([0.12/Dockerfile](https://github.com/ruimarinho/docker-bitcoin-core/blob/master/0.12/Dockerfile))
-- `0.12.1-alpine`, `0.12-alpine` ([0.12/alpine/Dockerfile](https://github.com/ruimarinho/docker-bitcoin-core/blob/master/0.12/alpine/Dockerfile))
+- `0.12.1`, `0.12` ([0.12/Dockerfile](https://github.com/jkubo/docker-bitcoin-core/blob/master/0.12/Dockerfile))
+- `0.12.1-alpine`, `0.12-alpine` ([0.12/alpine/Dockerfile](https://github.com/jkubo/docker-bitcoin-core/blob/master/0.12/alpine/Dockerfile))
 
-- `0.11.2`, `0.11` ([0.11/Dockerfile](https://github.com/ruimarinho/docker-bitcoin-core/blob/master/0.11/Dockerfile))
-- `0.11.2-alpine`, `0.11-alpine` ([0.11/alpine/Dockerfile](https://github.com/ruimarinho/docker-bitcoin-core/blob/master/0.11/alpine/Dockerfile))
+- `0.11.2`, `0.11` ([0.11/Dockerfile](https://github.com/jkubo/docker-bitcoin-core/blob/master/0.11/Dockerfile))
+- `0.11.2-alpine`, `0.11-alpine` ([0.11/alpine/Dockerfile](https://github.com/jkubo/docker-bitcoin-core/blob/master/0.11/alpine/Dockerfile))
 
 ## Docker
 
@@ -278,9 +291,9 @@ This image is officially supported on Docker version 17.09, with support for old
 
 [License information](https://github.com/bitcoin/bitcoin/blob/master/COPYING) for the software contained in this image.
 
-[License information](https://github.com/ruimarinho/docker-bitcoin-core/blob/master/LICENSE) for the [ruimarinho/docker-bitcoin-core][docker-hub-url] docker project.
+[License information](https://github.com/jkubo/docker-bitcoin-core/blob/master/LICENSE) for the [jkubo/docker-bitcoin-core][docker-hub-url] docker project.
 
-[docker-hub-url]: https://hub.docker.com/r/ruimarinho/bitcoin-core
-[docker-pulls-image]: https://img.shields.io/docker/pulls/ruimarinho/bitcoin-core.svg?style=flat-square
-[docker-size-image]: https://img.shields.io/docker/image-size/ruimarinho/bitcoin-core?style=flat-square
-[docker-stars-image]: https://img.shields.io/docker/stars/ruimarinho/bitcoin-core.svg?style=flat-square
+[docker-hub-url]: https://hub.docker.com/r/jkubo/bitcoin-core
+[docker-pulls-image]: https://img.shields.io/docker/pulls/jkubo/bitcoin-core.svg?style=flat-square
+[docker-size-image]: https://img.shields.io/docker/image-size/jkubo/bitcoin-core?style=flat-square
+[docker-stars-image]: https://img.shields.io/docker/stars/jkubo/bitcoin-core.svg?style=flat-square
